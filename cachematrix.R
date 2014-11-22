@@ -49,6 +49,6 @@ cacheSolve <- function(x, ...) {
         return(inverse_Matrix)
 }
 ## Uses:
-# matr <- makeCacheMatrix(matrix(1:10, 2, 5))
-# cacheSolve(matr)
-# cacheSolve(matr) ## "getting cached inverse"
+# matrix_example <- makeCacheMatrix(matrix(1:4, 2, 2))
+# cacheSolve(matrix_example)
+# cacheSolve(matrix_example) ## "getting cached inverse"
